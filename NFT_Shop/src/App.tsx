@@ -2,13 +2,15 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-import HomePage from "./Pages/HomePage";
-
+import MainLayout from "./Pages/MainLayout";
+import Home from "./screen/Home";
 const App: React.FC = () => {
   return (
     <Routes>
       <Route>
-        <Route path="" element={<HomePage />}></Route>
+        <Route path="" element={<MainLayout />}>
+          <Route path="" element={<Home />} />
+        </Route>
       </Route>
       {/* <ToastContainer
                 position="bottom-right"

@@ -1,0 +1,75 @@
+.header {
+  width: 1440px;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header .header__boxInput {
+  padding: 0 4rem;
+  display: flex;
+  position: relative;
+}
+.header__input_search {
+  all: unset;
+  padding: 0.5rem 2.5rem;
+  min-width: 24rem;
+  border-radius: 0.5rem;
+  background: #212127;
+  overflow: hidden;
+  color: #ffffff;
+  opacity: 1;
+  font-family: Andika;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem; /* 100% */
+}
+.header__boxInput--icon {
+  position: absolute;
+  color: #fff;
+  top: 0.8rem;
+  left: 5rem;
+}
+
+.header .header__boxInput input::placeholder {
+  opacity: 1;
+  color: #9d9d9d;
+  font-family: Andika;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.header .header__categoryBox {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.header .header__categoryBox .header__category_item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header__category_item-icon {
+  color: white;
+}
+.header__btn_connect {
+  margin-left: 4rem;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  border: 1px solid #fff;
+  background-color: #212127;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}

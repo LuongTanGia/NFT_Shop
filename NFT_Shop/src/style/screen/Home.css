@@ -1,0 +1,84 @@
+.home__discover_showcase {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.home__discover_showcase .home__discover_showcase-title {
+  margin-top: 58px;
+  color: #eaddb8;
+  /* font-family: Clash Display; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.24px;
+}
+
+.home__discover_showcase .home__discover_showcase-name {
+  margin-top: 20px;
+  width: 568px;
+  color: #fff;
+  /* font-family: Clash Display; */
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 98px; /* 122.5% */
+  letter-spacing: 0.8px;
+}
+.home__discover_showcase .home__discover_showcase-desc {
+  margin-top: 18px;
+  width: 488px;
+  color: #cfcfcf;
+  /* font-family: Aeonik; */
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: 0.2px;
+}
+.home__discover_showcase-bottom {
+  margin-top: 40px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.home__discover_showcase-bottom .home__btn_explore {
+  all: unset;
+  display: flex;
+  width: 186px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 54px;
+  background: #17e3a6;
+  color: #000;
+  /* font-family: Aeonik; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 100% */
+}
+.home__discover_showcase .home__discover_showcase-bottom img {
+  margin-left: 38px;
+}
+.home__discover_showcase .home__discover_showcase-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.home__discover_showcase .home__discover_showcase-right .center_img {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+}
+.home__discover_showcase .home__discover_showcase-right .rightImg {
+  width: 330px;
+  height: 535px;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
