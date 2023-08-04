@@ -1,17 +1,16 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // import { ToastContainer } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-import "./App.css";
 import HomePage from "./Pages/HomePage";
 
 const App: React.FC = () => {
-    return (
-        <Router>
-            <div className="App">
-                <HomePage />
-            </div>
-            {/* <ToastContainer
+  return (
+    <Routes>
+      <Route>
+        <Route path="" element={<HomePage />}></Route>
+      </Route>
+      {/* <ToastContainer
                 position="bottom-right"
                 autoClose={5000}
                 hideProgressBar={false}
@@ -23,8 +22,8 @@ const App: React.FC = () => {
                 pauseOnHover
                 theme="dark"
             /> */}
-        </Router>
-    );
+    </Routes>
+  );
 };
 
 export default App;

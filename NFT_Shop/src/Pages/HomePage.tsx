@@ -1,13 +1,13 @@
 import React from "react";
-import "/public/css/Pages_Css/homePage.css";
+import "../style/Pages/HomePage.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/Logo.svg";
-import CircleDown from "../assets/images/CaretCircleDown.svg";
 import exploImg from "../assets/images/Ellipse 9.svg";
 import leftImg from "../assets/images/Group 18.svg";
 import centerImg_top from "../assets/images/image 15.svg";
 import centerImg_bottom from "../assets/images/image 14.svg";
 import rightImg from "../assets/images/image_16.svg";
+import { AiOutlineDown } from "react-icons/Ai";
 
 function HomePage() {
   return (
@@ -25,16 +25,22 @@ function HomePage() {
         </div>
         <div className="categoryBox">
           <div className="category_item">
-            <p className="category_item-desc">Hello</p>
-            <img src={CircleDown} alt="down" />
+            <p className="category_item-desc">Home</p>
+            <p className="category_item-icon">
+              <AiOutlineDown />
+            </p>
           </div>
           <div className="category_item">
             <p className="category_item-desc">Explore</p>
-            <img src={CircleDown} alt="down" />
+            <p className="category_item-icon">
+              <AiOutlineDown />
+            </p>
           </div>
           <div className="category_item">
             <p className="category_item-desc">Community</p>
-            <img src={CircleDown} alt="down" />
+            <p className="category_item-icon">
+              <AiOutlineDown />
+            </p>
           </div>
         </div>
         <button className="btn btn_connect">Connect</button>
